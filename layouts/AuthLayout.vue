@@ -1,10 +1,5 @@
 <template>
-    <div class="vularent__auth-layout">
-        <div class="vularent__auth-pane">
-            <slot name="content">
-                
-            </slot>
-        </div>
-    </div>
+  <div class="vularent__auth-layout">
+      <slot></slot>
+  </div>
 </template>
-

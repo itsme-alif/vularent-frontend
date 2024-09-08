@@ -1,3 +1,27 @@
 *{
     @apply bg-white text-neutral-950
 }
+.vularent__auth-layout{
+    @apply w-full h-screen flex flex-col items-center justify-center
+}
+
+.vulacard{
+    @apply w-[420px] border border-neutral-200 p-6
+}
+
+.vulacard-body{
+    @apply flex flex-col gap-4
+}
+
+
+.vulaInput-group{
+    @apply flex flex-col gap-2 w-full
+}
+
+.vulaInput-control{
+    @apply border border-neutral-300 rounded-sm focus-within:border-blue-300 focus:border-blue-300 focus-visible:border-blue-300
+}
+
+.vulaButton{
+    @apply bg-blue-400 text-white px-[16px] py-[12px]
+}
